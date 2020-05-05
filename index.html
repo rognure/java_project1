@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Project</title>
+    <meta charset="UTF-8"/>
+    <script type="text/javascript">
+        function add7(){
+             var number1 = parseInt(document.getElementById("box1").value);
+             var result = number1 + 7;
+             document.getElementById("spanresult").textContent = result;
+            }
+    </script>
+</head>
+<body>
+    <form>
+        <label>Number</label>
+        <input id="box1" type="text"><br>
+        <input type="button" value="Submit" onclick="add7()">
+    </form>
+    <span id="spanresult">?</span>
+</body>
+</html>
